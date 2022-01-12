@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelApp</title>
+</head>
+<body>
+    <section>
+        <center><h1>Welcome to the Travel App</h1></center>
+        <center><img src="https://www.candorblog.com/wp-content/uploads/2017/05/travel-022.jpg" width="300" alt="TravelDiaries"></center>
+    </section>
+    <div>
+        <caption><h1>The list of places you wish to travel</h1></caption>
+        <ul type="square"></ul>
+        <li>Mumbai</li>
+        <li>Delhi</li>
+        <li>Goa</li>
+        <li>Kerala</li>
+        <li>Karnataka</li>
+    </div>
+    <br>
+    <br>
+    <section>
+        <i>Please Click on the Link to know more about places to visit</i>
+        <a href="/Info.html" target="_blank">Information</a>
+    </section>
+    <div>
+        <h3>Please Select any one of the state</h3>
+        <form action="list">
+            <label for="1"> 
+                <input type="radio" value="State1" name="State" id="1">Mumbai
+            </label><br>
+            <label for="2"> 
+                <input type="radio" value="State2" name="State" id="2">Delhi
+            </label><br>
+            <label for="3"> 
+                <input type="radio" value="State3" name="State" id="3">Goa
+            </label><br>
+            <label for="4"> 
+                <input type="radio" value="State4" name="State" id="4">Kerala
+            </label><br>
+            <label for="5"> 
+                <input type="radio" value="State5" name="State" id="5">Karnataka
+            </label>
+            <br>
+            <br>
+            <label for="name">
+                Name:-<input type="text" placeholder="Enter Your name" id="name">
+            </label>
+            <br>
+            <br>
+                <textarea name="explain" id="address" id="address" placeholder="Enter Your address"> </textarea>>
+            <br>
+            <br>
+            <select name="Days" id="no">
+              <option value="day">Select the number of Days</option>
+                <option value="day">10</option>
+                <option value="day">15</option>
+                <option value="day">20</option>
+            </select>
+
+        <br>
+        <br>
+        <button type="button" onclick="Submitted">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
